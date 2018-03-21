@@ -8,15 +8,16 @@ import java.awt.Point;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
 import java.awt.geom.AffineTransform;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class Triangleaaa extends JFrame {
+public class Triangleaaa extends JFrame
+{
+
+	private static final long serialVersionUID = 1L;
 
 	private int[] xPoints = new int[]{0, 25, 50};
 	private int[] yPoints = new int[]{50, 0, 50};
@@ -161,8 +162,10 @@ public class Triangleaaa extends JFrame {
 //		return angle2 - angle1;
 	}
 
-	private class DrawTrianglePanel extends JPanel {
-
+	private class DrawTrianglePanel extends JPanel 
+	{
+		
+		private static final long serialVersionUID = 1L;
 		private Point clickPoint;
 
 		public DrawTrianglePanel()
@@ -212,6 +215,7 @@ public class Triangleaaa extends JFrame {
 
 		}
 
+		@SuppressWarnings("unused")
 		public void mouseDragged(MouseEvent e) {
 			System.out.println("Mouse dragged called");
 

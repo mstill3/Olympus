@@ -3,17 +3,15 @@ package com.stillwell.olympus.athena.polygon.collision;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import java.awt.Shape;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
-import java.awt.geom.Area;
-
 import javax.swing.JPanel;
-
 import com.stillwell.olympus.athena.Geometry;
 
 public class Pan extends JPanel
 {
+
+	private static final long serialVersionUID = 1L;
 
 //	Rectangle r1 = new Rectangle(5, 5, 20, 20);
 	Rectangle r2 = new Rectangle(30, 20, 30, 30);

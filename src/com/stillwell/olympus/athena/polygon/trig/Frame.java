@@ -1,14 +1,11 @@
 package com.stillwell.olympus.athena.polygon.trig;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
-
 import javax.swing.JFrame;
 
 public class Frame extends JFrame
 {
+
+	private static final long serialVersionUID = 1L;
 
 	public Frame()
 	{

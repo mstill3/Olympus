@@ -23,7 +23,7 @@ public class KeysTester
 		Container contentPane = frame.getContentPane();
 
 		contentPane.add(label);
-
+		System.out.println("d");
 
 	}
 

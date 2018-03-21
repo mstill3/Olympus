@@ -1,27 +1,21 @@
 package com.stillwell.olympus.athena.polygon.trig;
 
-import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.Shape;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.geom.Area;
-
 import javax.swing.JPanel;
-
-import com.stillwell.olympus.athena.Geometry;
 
 public class Pan extends JPanel
 {
+	
+	private static final long serialVersionUID = 1L;
+
     Degree d = new Degree();
 	int height = 50;
 	public Triangle tri = new Triangle(new Point(10, height), new Point(20, 5), new Point(70, height));
 
-	public Pan() {
+	public Pan()
+	{
 		addMouseListener(new MouseListener() {
 			
 			@Override

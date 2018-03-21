@@ -53,8 +53,6 @@ public class Keys implements java.awt.event.KeyListener
 	@Override
 	public void keyPressed(KeyEvent e)
 	{
-
-		//		System.out.println((int) e.getKeyChar() + "    " + e.getKeyCode() + "    " + e.getKeyChar());
 		Key next = new Key(e.getKeyChar(), e.getKeyCode());
 		if(!keyAlreadyPressed(next))
 			keys.add(next);
@@ -94,7 +92,7 @@ public class Keys implements java.awt.event.KeyListener
 
 		return keysReleased;
 	}
-
+	
 	@Override
 	public void keyTyped(KeyEvent e){}
 

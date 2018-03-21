@@ -13,14 +13,11 @@ import java.util.TimerTask;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class rotationPanel extends JPanel {
+public class rotationPanel extends JPanel
+{
 
     private static final long serialVersionUID = 117L;
-
-
-
     private static final int SIZE = 500;
-
 
     // point arrays which contain the points that are rotated around the center 
     Point[] points1;
@@ -44,12 +41,8 @@ public class rotationPanel extends JPanel {
     long sleepTime;
     static int runTime;
 
-
-
-
-
     public rotationPanel(){
-        setSize(500,500);
+        setSize(SIZE, SIZE);
         setBackground(Color.DARK_GRAY);
         setVisible(true);
 

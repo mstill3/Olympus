@@ -1,11 +1,12 @@
 package com.stillwell.olympus.athena.polygon.collision;
 
-import java.awt.Paint;
 import java.util.ArrayList;
 
 public class Polygon extends java.awt.Polygon
 {
 	
+	private static final long serialVersionUID = 1L;
+
 	public Polygon(int[] xpoints, int[] ypoints, int length)
 	{
 		super(xpoints, ypoints, length);

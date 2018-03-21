@@ -16,8 +16,24 @@ public class KeyData
 		new Key(UNDEFINED, 40, "DOWN_ARROW"),
 		new Key(UNDEFINED, 37, "LEFT_ARROW"),
 		new Key(UNDEFINED, 39, "RIGHT_ARROW"),
+		
+		new Key(UNDEFINED, 112, "F1"),
+		new Key(UNDEFINED, 113, "F2"),
+		new Key(UNDEFINED, 114, "F3"),
+		new Key(UNDEFINED, 115, "F4"),
+		new Key(UNDEFINED, 116, "F5"),
+		new Key(UNDEFINED, 117, "F6"),
+		new Key(UNDEFINED, 118, "F7"),
+		new Key(UNDEFINED, 119, "F8"),
+		new Key(UNDEFINED, 120, "F9"),
+		new Key(UNDEFINED, 121, "F10"),
+		new Key(UNDEFINED, 122, "F11"),
+		new Key(UNDEFINED, 123, "F12"),
+		
 		new Key(UNDEFINED, 155, "INSERT"),
 		new Key(UNDEFINED, 524, "WINDOW_KEY"),
+		new Key(UNDEFINED, 525, "PRINT_KEY"),
+
 		
 		new Key(8, 8, "BACK_SPACE"),
 		new Key(10, 10, "ENTER"),
@@ -118,7 +134,7 @@ public class KeyData
 		new Key(120, 88, "x"),
 		new Key(121, 89, "y"),
 		new Key(122, 90, "z"),
-
+		
 		new Key(123, 123, "LEFT_BRACE"),
 		new Key(124, 92, "PIPE"),
 		new Key(125, 125, "RIGHT_BRACE"),

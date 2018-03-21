@@ -66,7 +66,6 @@ public class Key
 
 	public boolean equals(Key k)
 	{
-//		System.out.println(name + " - " + k.getName() + "           " + code  + " - " + k.getCode());
 		return ((name.equals(k.getName())) && (code == k.getCode()));
 	}
 

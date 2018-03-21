@@ -2,20 +2,15 @@ package com.stillwell.olympus.athena.polygon.turn;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.Shape;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.geom.Area;
-
 import javax.swing.JPanel;
-
-import com.stillwell.olympus.athena.Geometry;
 
 public class Pan extends JPanel
 {
 	
+	private static final long serialVersionUID = 1L;
+
 	int xPoly[] = {150, 250, 325, 375};
     int yPoly[] = {150, 100, 125, 225};
 	Polygon p1 = new Polygon(xPoly, yPoly, xPoly.length);

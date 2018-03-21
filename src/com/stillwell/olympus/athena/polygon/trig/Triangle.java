@@ -1,12 +1,12 @@
 package com.stillwell.olympus.athena.polygon.trig;
 
 import java.awt.Graphics;
-
 import javax.swing.JPanel;
 
 public class Triangle extends JPanel
 {
 
+	private static final long serialVersionUID = 1L;
 	private Point p1, p2, p3;
 
 	public Triangle(Point p1, Point p2, Point p3)

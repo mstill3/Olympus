@@ -15,10 +15,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Random;
-
 import javax.imageio.ImageIO;
-
-import com.stillwell.olympus.aphrodite.ColorPallet;
 import com.stillwell.olympus.athena.Data;
 
 public class Hack
@@ -36,9 +33,6 @@ public class Hack
 			pressKey('w');
 			pressKey('q');
 		}
-		
-		
-		
 
 	}
 

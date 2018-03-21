@@ -1,18 +1,12 @@
 package com.stillwell.olympus.athena.polygon.trig;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
 import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Rectangle;
-import java.awt.image.ImageObserver;
-import java.text.AttributedCharacterIterator;
-
 import javax.swing.JPanel;
 
 public class Shape extends JPanel
 {
+
+	private static final long serialVersionUID = 1L;
 
 	@Override
 	public void paint(Graphics g)
@@ -21,7 +15,7 @@ public class Shape extends JPanel
 		g.drawOval(10, 10, 10, 10);
 	}
 	
-	private int mean(int[] list)
+	public int mean(int[] list)
 	{
 		int sum = 0;
 		for(int num : list)

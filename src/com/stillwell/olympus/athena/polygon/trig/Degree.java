@@ -76,7 +76,7 @@ public class Degree extends Angle
 	@Override
 	public String toString()
 	{
-		return get() + "°"; //0176
+		return get() + " degrees"; //0176
 	}
 
 }
