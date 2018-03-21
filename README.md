@@ -1,6 +1,7 @@
 Olympus
 ------------
 
-This is written by Matt Stillwell.
-These are classes core classes that I have built up.
+This is written by Matt Stillwell.  
+These are classes core classes that I have built up.  
+Version 1.1
 
